@@ -1,0 +1,135 @@
+* { margin:0; padding:0;}
+body { background:url(images/body_bgd.jpg) left top repeat-x #262626; font-family:Arial; font-size:90%; line-height:1.0625em; color:#e7e0c2;}
+
+.clear { clear:both;}
+
+.fleft { float:left;}
+.fright { float:right;}
+
+.alignright { text-align:right;}
+.aligncenter { text-align:center;}
+
+.container { width:950px;}
+
+p { margin-bottom:26px;}
+.p1 { margin-bottom:19px;}
+.p2 { margin-bottom:37px;}
+
+
+
+/*==================forms====================*/
+input, select { vertical-align:middle; font-weight:normal;}
+img {border:0; vertical-align:top; text-align:left;}
+
+.form { height:28px;}
+.form input {width:168px; height:16px; background:#fff; border:1px solid #828282; color:#000;}
+textarea { width:169px; height:106px; background:#fff; overflow:auto; border:1px solid #828282;  font-size:1em; font-family:tahoma; color:#2d2d2d;}
+
+/*==================list====================*/
+ul { list-style:none;}
+
+.main_menu li { float:left; background:url(images/menu_divider.gif) no-repeat right 19px; width:150px; text-align:center; padding:23px 0 23px 0;}
+.main_menu li a { font-size:1.16em; color:#ded0a4; text-decoration:none; padding:0 0 0 0}
+.main_menu li a:hover { text-decoration:underline; color:#fff;}
+.main_menu li a.current { text-decoration:underline; color:#fff; cursor:default;}
+.main_menu .last { background:none;}
+
+.list1 li { background:url(images/icon1.gif) no-repeat left 7px; padding-left:48px;}
+.list1 li a { font-size:1.16em; line-height:2.57em;}
+.list1 .icon2 { background:url(images/icon2.gif) no-repeat left 7px;}
+.list1 .icon3 { background:url(images/icon3.gif) no-repeat left 7px;}
+.list1 .icon4 { background:url(images/icon4.gif) no-repeat left 7px;}
+.list1 .icon5 { background:url(images/icon5.gif) no-repeat left 7px;}
+.list1 .icon6 { background:url(images/icon6.gif) no-repeat left 7px;}
+.list1 .icon7 { background:url(images/icon7.gif) no-repeat left 7px;}
+
+
+
+/*==================list2====================*/
+
+.list2 li { background:url(images/icon1.gif) no-repeat left 7px; padding-left:30px;}
+.list2 li a { font-size:0.90em; line-height:2.57em;}
+.list2 .icon2 { background:url(images/icon2.gif) no-repeat left 7px;}
+.list2 .icon3 { background:url(images/icon3.gif) no-repeat left 7px;}
+.list2 .icon4 { background:url(images/icon4.gif) no-repeat left 7px;}
+.list2 .icon5 { background:url(images/icon5.gif) no-repeat left 7px;}
+.list2 .icon6 { background:url(images/icon6.gif) no-repeat left 7px;}
+.list2 .icon7 { background:url(images/icon7.gif) no-repeat left 7px;}
+
+
+/*==================other====================*/
+.img_indent { margin:0 22px 24px 0; float:left;}
+
+/*==================txt, links, lines, titles====================*/
+a {color:#e7e0c2;}
+a:hover{text-decoration:none;}
+
+h1.logo { background:url(images/logo.jpg) no-repeat left top; text-indent:-10000px; width:265px; height:78px; font-size:12px; margin:0;}
+h1 { font-weight:normal; font-size:24px; color:#fff; font-family:verdana; margin-bottom:19px;}
+
+.txt1 { font-size:0.92em;}
+.txt2 { color:#fff;}
+
+.link1 { font-size:1.16em; display:block;}
+.link2 { background:url(images/marker.gif) no-repeat left 4px; padding-left:15px; display:block; font-size:1.16em;}
+.link3 { background:url(images/marker.gif) no-repeat left 4px; padding-left:15px; font-size:1.16em;}
+.link4 { display:block; background:url(images/icon1.gif) no-repeat left 4px; padding-left:48px; color:#fff; font-size:1.16em; line-height:30px; margin-bottom:10px;}
+.link5 { display:block; background:url(images/icon2.gif) no-repeat left 4px; padding-left:48px; color:#fff; font-size:1.16em; line-height:30px; margin-bottom:10px;}
+
+.title { margin-bottom:20px;}
+
+/*==================blocks====================*/
+.block1 { background:#000; width:100%;}
+.block1 .left { background:url(images/block1_left.gif) no-repeat left top;}
+.block1 .right { background:url(images/block1_right.gif) no-repeat right top; width:100%;}
+
+.date_block { background: url(images/date_block.gif) no-repeat left top; width:208px; height:29px; margin-bottom:3px;}
+.date_block .ind { padding:6px 0 0 42px;}
+
+.date_block1 { background: url(images/date_block1.gif) no-repeat left top; width:208px; height:29px; margin-bottom:3px;}
+.date_block1 .ind { padding:6px 0 0 42px;}
+
+.block2 { background:url(images/block2_bgd.gif) left top repeat-x #121212;}
+.block2 .indent { padding:42px 20px 34px 11px;}
+
+.block3 { background:url(images/block3_bgd.gif) left top repeat-x #0e0e0e;}
+.block3 .indent { padding:42px 20px 34px 26px;}
+
+.but { background:url(images/but_bgd.gif) left top repeat-x; width:auto; float:left;}
+.but .left { background:url(images/but_left.gif) no-repeat left top;}
+.but .right { background:url(images/but_right.gif) no-repeat right top;}
+.but .ind { padding:8px 14px 10px 10px;}
+.but a { background:url(images/marker.gif) no-repeat left 4px; padding-left:14px; font-size:1.16em;}
+
+
+/*header*/
+#header .row_1 { height:117px;}
+#header .row_1 .fleft { padding:39px 0 0 35px;}
+#header .row_1 .fright { padding:61px 29px 0 0;}
+#header .row_2 { height:82px; padding:0 14px 0 14px;}
+
+/*content*/
+#content .row_1 { background:url(images/content_bgd.gif) left top repeat-y;}
+#content .row_1 .bg { background:url(images/content_bgd_1.jpg) no-repeat left top; }
+#content .row_1 .main_bgd { background:url(images/content_img.jpg) no-repeat 10px top; padding-bottom:32px;}
+#content .row_1 .indent { padding:10px 16px 0 442px;}
+
+/*footer*/
+#footer .indent { padding:26px 32px 0 20px;}
+#footer .fleft { color:#04a7ef;}
+#footer .fleft a { color:#04a7ef;}
+#footer .rss { background:url(images/rss.gif) no-repeat right top; padding-right:30px; color:#848484; display:block;}
+
+/*================== index-1.html ==================*/
+#page2 #content .main_bgd { padding-bottom:40px;}
+#page2 #footer {background:url(images/footer_bgd2.gif) no-repeat left top;}
+
+/*================== index-3.html ==================*/
+#page4 #content .main_bgd { padding-bottom:40px;}
+#page4 #footer {background:url(images/footer_bgd2.gif) no-repeat left top;}
+
+/*================== index-5.html ==================*/
+#page6 #content .col_2 .indent { padding-right:13px;}
+#page6 #content .col_2 img { margin:0 0 15px 0;}
+
+/*==========================================*/

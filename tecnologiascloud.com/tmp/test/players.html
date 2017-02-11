@@ -1,0 +1,68 @@
+<!--
+function launchPlayers()
+{
+	for(i=0; i < 5; i++)
+	{
+		
+	}
+
+}
+-->
+<script type="text/javascript">
+
+var playerlist = ['player1', 'player2', 'player3', 'player4', 'player5']
+var teamlimit = 5;
+
+function printResult(playerlist)
+{
+	console.log(playerlist.length + " players team");
+	count = 1
+	for (i=0; i < playerlist.length; i++)
+	{
+		act = playerlist[i];
+		act1 = playerlist[i+1];
+		if ( act == act1 )
+		{
+			count++;	
+		}
+		else
+		{
+			console.log(act + " can choose " + count + " characters")
+			count = 1;
+		}
+	}
+}
+
+function main(playerlist, teamlimit)
+{
+	for (i=0; playerlist.length < teamlimit; i++)
+	{
+		playerlist.push(playerlist[i]);
+	}
+	playerlist.sort();
+	printResult(playerlist);
+	console.log(playerlist);	
+}
+if (playerlist === undefined || playerlist.length == 0)
+{
+	alert('Empty array');
+}
+else
+{
+	if (teamlimit >= playerlist.length)
+	{
+		main(playerlist, teamlimit);
+	}
+	else
+	{
+		alert("More players than expected.");
+	}
+}
+</script>
+<html>
+	<body>
+		<script>
+			
+		</script>	
+	</body>
+</html>
