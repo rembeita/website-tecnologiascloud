@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: tecnologiascloud.com
+  - source: / 
     destination: /srv/webserver
 #hooks:
 #  BeforeInstall:
