@@ -1,8 +1,8 @@
 version: 0.0
 os: linux
 files:
-  - source: tecnologiascloud.com/
-    destination: /tmp
+  - source: tecnologiascloud.com
+    destination: /srv/webserver
 #hooks:
 #  BeforeInstall:
 #    - location: Scripts/UnzipResourceBundle.sh
